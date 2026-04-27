@@ -20,15 +20,13 @@
 
 html {
     font-size:62.5%;
-}
-
-html, body {
     height: 100%;
 }
 
 body {
     color: var(--white-color);
     background: var(--bg-color);
+    height: 100%;
     overflow-x: hidden;
 }
 
@@ -126,14 +124,16 @@ nav a.active {
 
 section {
     position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    min-height: 100%;
-    height: auto;
+    height: 100%;
     padding: 10rem 9% 2rem;
     background: var(--bg-color);
     visibility: hidden;
     opacity: 0;
-    overflow: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 section.active{
