@@ -119,14 +119,14 @@ nav a.active {
 }
 
 section {
-    position:absolute;
+    position: absolute;
     width: 100%;
     min-height: 100%;
     height: auto;
     padding: 10rem 9% 2rem;
-    visibility:hidden;
-    opacity:0;
-    overflow:hidden;
+    visibility: hidden;
+    opacity: 0;
+    overflow: hidden;
 }
 
 section.active{
