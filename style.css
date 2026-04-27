@@ -22,8 +22,14 @@ html {
     font-size:62.5%;
 }
 
+html, body {
+    height: 100%;
+}
+
 body {
     color: var(--white-color);
+    background: var(--bg-color);
+    overflow-x: hidden;
 }
 
 header {
